@@ -1,0 +1,37 @@
+body, textarea {
+  white-space: pre;
+  font-family: 'Courier New';
+  font-weight: bold;
+  color: #fff;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  margin: 2rem;
+  font-size: 16px;
+  text-indent: 20px;
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  height: 14rem;
+  margin-bottom: -1.5rem;
+  border: none;
+  font-size: 36px;
+  background: transparent;
+  cursor: pointer;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  textarea {
+    font-size: 20px;
+    height: 8.5rem
+  }
+}
